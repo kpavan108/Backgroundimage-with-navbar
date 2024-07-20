@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./image/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    margin: 50px 60px;
+    font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: aqua;
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 60px;
+}
+
+.header ul li{
+    margin-left: 20px;
+    color: azure;
+}
+
+.middle {
+    float: right;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.middle h1{
+    color: brown;
+
+}
+
+.middle p{
+    color: white;
+    margin-top: 20px;
+}
+
+.middle button{
+    margin-top: 20px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-color: cadetblue;
+    color: azure;
+    font-size: 15px;
+}
